@@ -3,153 +3,85 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>Gabe Harder</title>
-  <meta name="description" content="Hi, I’m Gabe. I’m a full-stack podcast producer–audio engineer, videographer, editor & beyond– musician, and ...<i>vibe coder?!</i> in Southern California." />
-
-  <!-- Open Graph / Twitter -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Gabe — Full-stack podcast producer">
-  <meta property="og:description" content="Hi, I’m Gabe. I’m a full-stack podcast producer–audio engineer, videographer, editor & beyond– musician, and ...<i>vibe coder?!</i> in Southern California.">
-  <meta property="og:url" content="https://example.com/">
-  <!-- Replace with a real image URL later; 1200x630 recommended -->
-  <meta property="og:image" content="/og.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Gabe — Full-stack podcast producer">
-  <meta name="twitter:description" content="Hi, I’m Gabe. I make podcasts. I’m a full-stack podcast producer—videographer, audio engineer, editor, and musician—based in Los Angeles.">
-  <meta name="twitter:image" content="/og.png">
-
-  <!-- RSS (optional; add your feed later) -->
-  <link rel="alternate" type="application/rss+xml" title="Gabe — RSS" href="/feed.xml">
-
-  <!-- Favicon: minimalist inline SVG -->
-  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%230b0f19"/><text x="50%" y="52%" font-family="system-ui,Segoe UI,Arial" font-size="34" text-anchor="middle" fill="%23e5e7eb">G</text></svg>'>
-
+  <title>Gabe Harder: Podcast Producer</title>
+  <meta name="description" content="Gabe Harder: Podcast Producer" />
   <style>
     :root{
       --bg:#ffffff; --fg:#0f172a; --muted:#475569; --link:#2563eb; --border:#e2e8f0;
-      --max:720px; --radius:14px; --pad:20px;
+      --max:820px; --radius:14px; --pad:20px;
     }
     @media (prefers-color-scheme: dark){
       :root{ --bg:#0b0f19; --fg:#e5e7eb; --muted:#94a3b8; --link:#60a5fa; --border:#1f2937; }
     }
-    *{ box-sizing:border-box }
-    body{
-      margin:0; font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;
-      color:var(--fg); background:var(--bg);
-    }
+    body{ margin:0; font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif; color:var(--fg); background:var(--bg); }
     .wrap{ max-width:var(--max); margin:auto; padding:36px var(--pad) 64px }
-    header{ display:flex; justify-content:space-between; align-items:flex-start; gap:16px; margin-bottom:28px }
-    nav a{ color:var(--muted); text-decoration:none; margin-left:14px }
-    nav a:hover{ color:var(--fg) }
-    h1{ font-size:28px; margin:0 0 8px }
-    h2{ font-size:20px; margin:0 0 10px }
+    h1{ font-size:28px; margin:0 0 16px }
+    h2{ font-size:20px; margin:20px 0 10px }
     .muted{ color:var(--muted) }
     .card{ border:1px solid var(--border); border-radius:var(--radius); padding:18px; margin:14px 0 }
     .grid{ display:grid; gap:14px }
     @media(min-width:720px){ .grid{ grid-template-columns:1fr 1fr } }
     ul{ margin:0; padding-left:18px }
     a{ color:var(--link) }
-    footer{ margin-top:32px; font-size:14px; color:var(--muted) display:block }
-    .pill a{ text-decoration:none }
-    .pill{ display:inline-block; border:1px solid var(--border); border-radius:999px; padding:6px 10px; margin:6px 8px 0 0; }
-    .toplinks a{ margin-right:10px }
-    .hero p{ margin:6px 0 0 }
-    .tiny{ font-size:12px }
+    .photo{ max-width:150px; border-radius:var(--radius); margin-bottom:16px; }
+    .email-button{ display:inline-block; margin-top:20px; padding:10px 16px; background:var(--link); color:white; border-radius:8px; text-decoration:none; font-weight:500; }
+    .video-embed{ position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:var(--radius); margin:14px 0; }
+    .video-embed iframe{ position:absolute; top:0; left:0; width:100%; height:100%; border:0; }
   </style>
-
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Person",
-    "name":"Gabe",
-    "jobTitle":"Podcast Producer",
-    "description":"Full-stack podcast producer—videographer, audio engineer, editor, musician—based in Los Angeles.",
-    "url":"https://example.com/",
-    "sameAs":[
-      "https://github.com/yourhandle",
-      "https://www.linkedin.com/in/yourhandle",
-      "https://www.youtube.com/@yourchannel",
-      "https://open.spotify.com/show/yourshowid"
-    ]
-  }
-  </script>
 </head>
 <body>
   <div class="wrap">
     <header>
-      <div class="hero">
-        <h1>Gabe</h1>
-        <p class="muted">Full-stack podcast producer — videographer, audio engineer, editor, and musician. Based in Los Angeles.</p>
-        <div class="toplinks muted">
-          <a href="#work">Work</a> ·
-          <a href="#links">Links</a> ·
-          <a href="#contact">Contact</a>
-        </div>
-      </div>
-      <nav>
-        <!-- keep nav minimal; anchors above are enough -->
-      </nav>
+      <h1>Gabe Harder: Podcast Producer</h1>
     </header>
 
-    <section id="about" class="card">
-      <h2>Hi, I’m Gabe. I make podcasts.</h2>
-      <p>I work end-to-end on shows—from concept and booking to recording, editing, mixing, video, and delivery. I like clear stories, great tape, and efficient pipelines.</p>
-      <ul>
-        <li>Producer &amp; consultant for independent and brand podcasts.</li>
-        <li>Video post &amp; social packaging (shorts, captions, thumbnails, analytics-aware cuts).</li>
-        <li>Music background for scoring and tasteful sound design.</li>
-      </ul>
+    <section id="bio" class="card">
+      <img src="your-photo.jpg" alt="Photo of Gabe Harder" class="photo" />
+      <p>Hi, I’m Gabe. I produce podcasts from start to finish—developing concepts, recording, editing, and publishing shows with a point of view.</p>
+      <p>Periodically available for new work; Reach out via email with inquiries and/or book recommendations.</p>
     </section>
 
-    <section id="work" class="grid">
-      <div class="card">
-        <h2>Current</h2>
-        <ul>
-          <li><strong>Industry Only at the Cheese Store</strong> — food & hospitality conversations; production + social strategy.</li>
-          <li><strong>Quick Question</strong> — research, editing, and clip pipeline experiments.</li>
-        </ul>
+    <section id="gallery" class="card">
+      <h2>Selected Work</h2>
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/VKVZ_FLb0GY?si=Jeramf73Nij6OdY0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
-      <div class="card">
-        <h2>Selected</h2>
-        <ul>
-          <li><strong>Monterey Podcasting</strong> — co-founder; consulting & production across formats.</li>
-          <li><strong>Clips & Shorts</strong> — automated/assisted workflows for discovery and retention.</li>
-        </ul>
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/0d9y_6uL7QA?si=jpilY2Ubc1eLiLcZ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/ysUePG_A_mw?si=te5YpmYUdp845KYi" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/8CvzpYCKavE?si=_z8ux9mmdekG4xsc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/A2Q-I1JEsj0?si=jCA4GYQiqh5q23EL" title="YouTube video player (studio building)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </section>
 
-    <section id="links" class="card">
-      <h2>Links</h2>
-      <p class="pill"><a href="https://your-portfolio.example" target="_blank" rel="noopener">Portfolio</a></p>
-      <p class="pill"><a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener">YouTube</a></p>
-      <p class="pill"><a href="https://open.spotify.com/show/yourshowid" target="_blank" rel="noopener">Spotify</a></p>
-      <p class="pill"><a href="https://podcasts.apple.com/us/podcast/yourshow" target="_blank" rel="noopener">Apple Podcasts</a></p>
-      <p class="pill"><a href="https://github.com/yourhandle" target="_blank" rel="noopener">GitHub</a></p>
-      <p class="pill"><a href="https://substack.com/@yourhandle" target="_blank" rel="noopener">Substack</a></p>
-      <p class="pill"><a href="https://www.linkedin.com/in/yourhandle" target="_blank" rel="noopener">LinkedIn</a></p>
+    <section class="grid">
+      <div class="card">
+        <h2>Worked with:</h2>
+        <ul>
+          <li>Stiff Socks, Producer</li>
+          <li>Quick Question with Soren & Daniel, Producer</li>
+          <li>Industry Only at The Cheese Store, Producer</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Other work:</h2>
+        <ul>
+          <li>Vinyl, Me Please (Motown & Blue Note series), Producer</li>
+          <li>Girls Gotta Eat, Consultant</li>
+          <li>Say Podcasts, Founder (TBA)</li>
+        </ul>
+      </div>
     </section>
 
-    <section id="contact" class="card">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:gabe@example.com">gabe@example.com</a>
-         · Calendar: <a href="https://calendly.com/yourhandle/intro" target="_blank" rel="noopener">book a chat</a></p>
-      <p class="tiny muted">Prefer email first. Happy to talk shop about production, systems, and story.</p>
-    </section>
-
-    <footer class="muted">
-      © <span id="y"></span> Gabe
-      <!-- Privacy-friendly hit counter (optional): replace URL with your real domain
-           This increments a public count without cookies. Remove if you want zero external calls. -->
-      · <img alt="views" referrerpolicy="no-referrer-when-downgrade"
-             src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fexample.com&count_bg=%231f2937&title_bg=%231f2937&icon=&edge_flat=false"
-             style="vertical-align:middle; height:16px">
+    <footer>
+      <a href="mailto:gabelton@icloud.com" class="email-button">Email Me</a>
     </footer>
   </div>
-
-  <script>
-    // year
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
